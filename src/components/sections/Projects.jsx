@@ -13,7 +13,7 @@ export const Projects = () => {
         "Built using Python, Flask, React, and MongoDB.",
       ],
       tech: ["Python", "Flask", "React", "MongoDB", "OpenAI API", "Whisper"],
-      link: "#",
+      link: "https://github.com/anish-mangla/Boilermake-Interview-Prep",
     },
     {
       title: "Bollywood Heardle",
@@ -24,6 +24,17 @@ export const Projects = () => {
         "Built core gameplay mechanics, including a progressive hint system with increasingly longer song clips.",
       ],
       tech: ["Python", "Flask", "React", "MongoDB", "Spotify API"],
+      link: "https://bollywood-heardle-1.onrender.com/",
+    },
+    {
+      title: "Shell Interpreter",
+      dates: "March 2024 – April 2024",
+      description: [
+        "Built a Unix-like shell combining behaviors from bash and csh using C++, Lex (Flex), and Yacc (Bison).",
+        "Implemented a scanner and parser supporting complex commands with pipes, redirection, subshells, built-ins, signal handling, wildcard expansions, and shell history.",
+        "Refactored C-style code to modern C++ for improved memory management and functionality.",
+      ],
+      tech: ["C++", "Lex", "Yacc", "Flex", "Bison", "Unix System Calls"],
       link: "#",
     },
     {
@@ -39,15 +50,15 @@ export const Projects = () => {
       link: "#",
     },
     {
-      title: "Shell Interpreter",
-      dates: "March 2024 – April 2024",
+      title: "Dogecoin Trading Bot",
+      dates: "May 2023 – June 2023",
       description: [
-        "Built a Unix-like shell combining behaviors from bash and csh using C++, Lex (Flex), and Yacc (Bison).",
-        "Implemented a scanner and parser supporting complex commands with pipes, redirection, subshells, built-ins, signal handling, wildcard expansions, and shell history.",
-        "Refactored C-style code to modern C++ for improved memory management and functionality.",
+        "Created a Dogecoin trading bot based on sentiment analysis of Elon Musk’s tweets using the Python Natural Language Toolkit.",
+        "Scraped, filtered, and analyzed 5 years of Musk’s tweet data using Pandas and NumPy.",
+        "Implemented Scipy and Quantstats to achieve a high trading return by the bot.",
       ],
-      tech: ["C++", "Lex", "Yacc", "Flex", "Bison", "Unix System Calls"],
-      link: "#",
+      tech: ["Python", "Pandas", "NumPy", "NLTK", "Scipy", "Quantstats"],
+      link: "https://github.com/PranayN23/Elon_Musk_Tweet_NLP_Project",
     },
   ];
 
