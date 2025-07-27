@@ -5,6 +5,7 @@ export const About = () => {
   const languages = ["Python", "Java", "C", "JavaScript", "SQL", "R", "C++"];
 
   const libraries = [
+    "FastMCP",
     "TensorFlow",
     "Pandas",
     "NumPy",
@@ -17,11 +18,15 @@ export const About = () => {
   ];
 
   const frameworksAndTechnologies = [
+    "Model Context Protocol",
+    "Retrieval Augmented Generation",
     "React",
     "Flask",
     "Node.js",
     "Express",
     "MongoDB",
+    "Azure CosmosDB",
+    "Azure AI Search",
     "Neo4j",
     "Tailwind CSS",
     "Vite",
