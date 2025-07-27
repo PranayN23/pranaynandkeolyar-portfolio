@@ -3,14 +3,14 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const Projects = () => {
   const projects = [
     {
-      title: "Boilermaker Interview Prep",
+      title: "Interview Prep AI",
       dates: "February 2025 - June 2025",
       description: [
-        "Allows users to upload their resume and either answer basic questions to get graded or do a resume-specific mock interview with 5 timed questions and grading.",
-        "Uses Whisper to transcribe video responses and OpenAI API to grade the answers based on transcriptions.",
-        "Generates resume-specific interview questions dynamically based on the user's resume.",
-        "Users can review past grades to track their progress.",
-        "Built using Python, Flask, React, and MongoDB.",
+        "Built an AI-powered mock interview platform that generates tailored behavioral questions based on user resumes.",
+        "Implemented full-length interview simulations with transcription via Whisper and automated scoring using OpenAI’s API.",
+        "Added a bank of 50 common behavioral questions for practice",
+        "Enabled users to review past interview scores and feedback.",
+        "Developed using Flask, MongoDB, and React to deliver a seamless full-stack experience.",
       ],
       tech: ["Python", "Flask", "React", "MongoDB", "OpenAI API", "Whisper"],
       link: "https://github.com/anish-mangla/Boilermake-Interview-Prep",
@@ -19,9 +19,9 @@ export const Projects = () => {
       title: "Bollywood Heardle",
       dates: "November 2024 – May 2025",
       description: [
-        "Developed an interactive music guessing game using Python, Flask, React, MongoDB, and the Spotify API.",
-        "Utilized Spotify APIs for user authentication and fetching song audio and metadata for the creation of a dynamic song library.",
-        "Built core gameplay mechanics, including a progressive hint system with increasingly longer song clips.",
+        "Developed an interactive music guessing game using Python Flask, React, MongoDB, and the Spotify API.",
+        "Built core gameplay mechanics and utilized Spotify APIs for user authentication and fetching song audios.",
+        "Added users to filter songs by decade, song popularity, and artist for a personalized experience..",
       ],
       tech: ["Python", "Flask", "React", "MongoDB", "Spotify API"],
       link: "https://bollywood-heardle-1.onrender.com/",

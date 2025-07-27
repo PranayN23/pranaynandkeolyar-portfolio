@@ -135,13 +135,16 @@ export const About = () => {
                   </h4>
                   <ul className="list-disc list-inside ml-6">
                     <li>
-                      Developed an AI-driven chatbot enabling customers to
-                      diagnose and self-heal network issues in real-time.
+                      Developing intelligent AI agents that analyze 5G network logs from Snowflake and MongoDB test case data to
+identify test failures and root cause network issues in seconds instead of minutes/hours.
                     </li>
                     <li>
-                      Leveraged 5G core network capabilities to provide seamless
-                      network diagnostics and automated error resolution,
-                      enhancing user experience and reducing downtime.
+                     Creating a test case discovery agent that allows engineers to find test cases using natural language. Extracting
+data from MongoDB and code repositories and embedding them into a secure Cosmos vector database.
+                    </li>
+                    <li>
+                      Utilizing Model Context Protocol (FastMCP), Retrieval Augmented Generation, and Agentic AI techniques
+(LangChain/LangGraph) in Python through OpenAI API wrappers provided by AT&T.
                     </li>
                   </ul>
                 </div>
