@@ -136,19 +136,33 @@ export const About = () => {
               <div className="space-y-4 text-gray-300">
                 <div>
                   <h4 className="font-semibold">
-                    Software Engineer Intern, AT&T Labs (Jun 2025 – Present)
+                    Software Engineer Intern, Defendermare (Jun 2025 – Aug 2025)
                   </h4>
                   <ul className="list-disc list-inside ml-6">
                     <li>
-                      Developing intelligent AI agents that analyze 5G network logs from Snowflake and MongoDB test case data to
+                      Developing an agentic multi-document AI RAG pipeline using Python and Claude APIs to identify gaps in
+security threat detection as well as which security vulnerabilities should be prioritized for remediation
+                    </li>
+                    <li>
+                     Implementing support for multimodal inputs (text and images) with an integrated real-time web search.
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold">
+                    Software Engineer Intern, AT&T Labs (Jun 2025 – Aug 2025)
+                  </h4>
+                  <ul className="list-disc list-inside ml-6">
+                    <li>
+                      Developed intelligent AI agents that analyze 5G network logs from Snowflake and MongoDB test case data to
 identify test failures and root cause network issues in seconds instead of minutes/hours.
                     </li>
                     <li>
-                     Creating a test case discovery agent that allows engineers to find test cases using natural language. Extracting
+                    Created a test case discovery agent that allows engineers to find test cases using natural language. Extracting
 data from MongoDB and code repositories and embedding them into a secure Cosmos vector database.
                     </li>
                     <li>
-                      Utilizing Model Context Protocol (FastMCP), Retrieval Augmented Generation, and Agentic AI techniques
+                      Utilized Model Context Protocol (FastMCP), Retrieval Augmented Generation, and Agentic AI techniques
 (LangChain/LangGraph) in Python through OpenAI API wrappers provided by AT&T.
                     </li>
                   </ul>
@@ -160,7 +174,7 @@ data from MongoDB and code repositories and embedding them into a secure Cosmos 
                   </h4>
                   <ul className="list-disc list-inside ml-6">
                     <li>
-                      Develop predictive models using TensorFlow in Python,
+                      Developed predictive models using TensorFlow in Python,
                       including RNNs, to forecast NFL team success based on
                       position investment and player performance data. Achieved
                       R² values of 84% for team and player success predictions.
@@ -168,7 +182,7 @@ data from MongoDB and code repositories and embedding them into a secure Cosmos 
                     <li>
                       Implemented a web-based Offseason Simulator using Flask
                       (backend), React (frontend), and MongoDB (database) for
-                      simulating player signings, drafts, and trades.
+                      simulating player signings, drafts, and trades against MCP agents.
                     </li>
                     <li>
                       Scraped, cleaned, and stored 15 years of NFL investment
