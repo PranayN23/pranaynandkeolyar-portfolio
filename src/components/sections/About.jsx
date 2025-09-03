@@ -127,6 +127,8 @@ export const About = () => {
                   <li>Information Systems</li>
                   <li>Software Engineering</li>
                   <li>Computer Security</li>
+                  <li>Data Mining and Machine Learning</li>
+                  <li>Competitive Programming II</li>
                   <li>Financial Data Analysis and Modeling</li>
                 </ul>
               </ul>
